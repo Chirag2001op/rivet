@@ -1,9 +1,10 @@
-
+import React from "react";
+import { JumbotronContainer } from "./containers/jumbotron";
 function App() {
   return (
-    <div className="App">
-     <h1>Hi, This is rivet</h1>
-    </div>
+    
+    <JumbotronContainer/>
+    
   );
 }
 
