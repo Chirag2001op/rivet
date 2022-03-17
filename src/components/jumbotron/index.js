@@ -1,8 +1,8 @@
 import React from "react";
 import {
-  Inner,
   Container,
   Item,
+  Inner,
   Pane,
   Title,
   SubTitle,
@@ -15,8 +15,8 @@ export default function Jumbotron({
   ...restProps
 }) {
   return (
-    <Item{...restProps}>
-      <Inner direction={direction} >{children}</Inner>
+    <Item {...restProps}>
+      <Inner direction={direction}>{children}</Inner>
     </Item>
   );
 }
